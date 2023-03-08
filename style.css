@@ -1,0 +1,109 @@
+body {
+    background-color: lightgrey;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    display: flexbox;
+    justify-content: center;
+    align-items: center;
+    margin: 5em;
+    padding: .5em;
+}
+
+.me {
+    display: flex;
+    justify-content: center;
+    
+    align-items: center;
+}
+
+.me h1 {
+    width: 40%;
+
+}
+
+.me img {
+    width: 20%
+}
+
+.picture {
+    padding-left: 100px;
+}
+
+.Historical_place {
+    width: 50%;
+}
+
+.greece {
+    padding-left: 100px;
+}
+
+
+
+
+.greek {
+    margin-right: 2em;
+    width: 50%;
+
+}
+
+table {
+    width: 400px;
+    justify-content: center;
+}
+
+th {
+    text-align: left;
+}
+
+table,
+th,
+td {
+    border: 1px solid #000;
+}
+
+table {
+    margin: auto;
+}
+
+.language {
+    text-align: left;
+    justify-content: center;
+
+}
+
+h2 {
+    text-align: left;
+}
+
+.Interests {
+
+    justify-content: center;
+    flex-direction: row;
+    padding-top: 5px;
+}
+
+
+
+.points_of_interest {
+    margin-right: 25px;
+    padding-bottom: .5%;
+    text-align: left;
+}
+
+@media (min-width: 960px) {
+    .Interests {
+        display: flex;
+    }
+
+    .points_of_interest {
+        display: flex;
+    }
+
+    .destination {
+        display: flex;
+        margin-right: 2em;
+
+
+    }
+
+
+}
