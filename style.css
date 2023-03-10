@@ -1,6 +1,6 @@
 body {
     background-color: lightgrey;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-family: 'Times New Roman', Times, serif;
     display: flexbox;
     justify-content: center;
     align-items: center;
@@ -11,17 +11,14 @@ body {
 .me {
     display: flex;
     justify-content: center;
-    
     align-items: center;
 }
 
 .me h1 {
-    width: 40%;
+    width: 35%;
+    font-style: oblique;
+    text-align: left;
 
-}
-
-.me img {
-    width: 20%
 }
 
 .picture {
@@ -36,32 +33,26 @@ body {
     padding-left: 100px;
 }
 
-
-
-
-.greek {
-    margin-right: 2em;
-    width: 50%;
-
-}
-
-table {
-    width: 400px;
-    justify-content: center;
-}
-
 th {
-    text-align: left;
+    text-align: center;
+}
+
+td {
+    padding: 10;
 }
 
 table,
 th,
 td {
     border: 1px solid #000;
+
 }
 
 table {
     margin: auto;
+    width: 75%;
+    height: 75%;
+
 }
 
 .language {
@@ -70,8 +61,21 @@ table {
 
 }
 
-h2 {
+.language h2 {
+    text-align: center;
+    font-style: oblique;
+}
+
+.language p {
     text-align: left;
+
+}
+
+h2 {
+    text-align: center;
+    margin-top: 5%;
+    margin-bottom: 3%;
+    font-style: oblique;
 }
 
 .Interests {
@@ -89,6 +93,8 @@ h2 {
     text-align: left;
 }
 
+
+
 @media (min-width: 960px) {
     .Interests {
         display: flex;
@@ -105,5 +111,25 @@ h2 {
 
     }
 
+    .destination p {
+        padding-top: 2%;
+        margin-left: .8%;
+        text-align: left;
+    }
 
+    .greek {
+        margin-left: 9%;
+        width: 500%;
+
+
+
+    }
+
+
+    .me img {
+        width: 35%;
+        
+
+
+    }
 }
