@@ -40,6 +40,8 @@ td {
 table {
 
     width: 100%;
+    border-collapse: collapse;
+   
 
 
 }
@@ -111,6 +113,7 @@ h2 {
 
     .me img {
         width: 100%;
+        align-content: center;
 
     }
 
@@ -118,12 +121,18 @@ h2 {
         display: flex;
         width: 55%;
         font-style: oblique;
+        
 
     }
 
     h1 {
         width: 100%;
         padding-block: 25%;
+    }
+
+    .Interests img {
+        float:left;
+        margin-right: 2em;
     }
 
 
@@ -155,6 +164,11 @@ h2 {
 
     }
 
+    .Interests img {
+        float:left
+    }
+
+
 
     .greek {
 
@@ -167,5 +181,16 @@ h2 {
     }
 
 
+
+}
+
+@media (min-width: 320px) {
+    .me {
+        display: flex;
+        text-align: center;
+        width: 55%;
+        font-style: oblique;
+
+    }
 
 }
