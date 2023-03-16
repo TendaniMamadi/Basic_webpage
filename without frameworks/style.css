@@ -1,32 +1,16 @@
 body {
     background-color: lightgrey;
     font-family: 'Times New Roman', Times, serif;
-    display: flexbox;
-    justify-content: center;
-    align-items: center;
-   
-}
-
-
-
-.me h1 {
-    width: 35%;
-    font-style: oblique;
-    text-align: left;
-
+    font-size: small;
 
 }
 
-.picture {
-    padding-left: 100px;
-}
-
-.Historical_place {
-    width: 100%;
-    height: 20%;
-
+.container {
+    padding: 5%;
 
 }
+
+
 
 .greece {
     padding-left: 100px;
@@ -50,23 +34,25 @@ td {
 td {
 
     text-align: center;
+    font-size: small;
 }
 
 table {
-    margin: auto;
-    width: 55%;
-    height: 55%;
+
+    width: 100%;
+
 
 }
 
 .language {
-    text-align: left;
+
     justify-content: center;
+    font-size: small;
 
 }
 
 .language h2 {
-    text-align: center;
+
     font-style: oblique;
 }
 
@@ -76,7 +62,7 @@ table {
 }
 
 h2 {
-    text-align: center;
+
     margin-top: 5%;
     margin-bottom: 3%;
     font-style: oblique;
@@ -84,20 +70,11 @@ h2 {
 
 .Interests {
 
-    justify-content: center;
-    flex-direction: row;
     padding-top: 5px;
-    font-size: medium;
+    font-size: small;
 }
 
 
-
-.points_of_interest {
-    margin-right: 25px;
-    padding-bottom: .5%;
-    text-align: left;
-
-}
 
 .greek {
     margin-left: 9%;
@@ -105,19 +82,9 @@ h2 {
 
 }
 
-
 @media (min-width: 960px) {
     .Interests {
         display: flex;
-    }
-
-    .points_of_interest {
-        display: flex;
-    }
-
-    .Historical_place {
-        width: 50%;
-
 
     }
 
@@ -125,41 +92,38 @@ h2 {
         display: flex;
         margin-right: 2em;
         justify-content: right;
-
-
     }
 
 
     .destination p {
         padding-top: 2%;
         margin-left: .8%;
-        text-align: left;
+
+
     }
 
     .greek {
 
         max-width: 100%;
         margin: 0;
-
-
-
-
     }
 
 
     .me img {
-        max-width: 100%;
-        margin: 0;
-
-
-
+        width: 100%;
 
     }
 
     .me {
         display: flex;
-        justify-content: center;
-        align-items: center;
+        width: 55%;
+        font-style: oblique;
+
+    }
+
+    h1 {
+        width: 100%;
+        padding-block: 25%;
     }
 
 
@@ -167,15 +131,30 @@ h2 {
 }
 
 @media (max-width: 959px) {
-    .points_of_interest {
+    .BK_text {
         display: flex;
-
-    }
-
-    .Bo-Kaap {
         flex-direction: row-reverse;
-        max-width: 100%;
+        width: 276px;
+        height: 170px;
+        object-fit: cover;
+
     }
+
+    .D6_text {
+        display: flex;
+        width: 276px;
+        height: 170px;
+        object-fit: cover;
+    }
+
+    .CT_text {
+        display: flex;
+        width: 276px;
+        height: 170px;
+        object-fit: cover;
+
+    }
+
 
     .greek {
 
@@ -184,6 +163,7 @@ h2 {
 
     .me img {
         margin: 0;
+
     }
 
 
