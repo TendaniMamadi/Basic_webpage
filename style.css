@@ -1,12 +1,16 @@
 body {
-    background-color: lightgrey;
+    background-color: #F2F3F4;
     font-family: 'Times New Roman', Times, serif;
     font-size: small;
+   
 
 }
 
 .container {
-    padding: 5%;
+    padding: 3em;
+    margin: -2em;
+    background-color: #f8f9f9;
+  
 
 }
 
@@ -50,6 +54,7 @@ table {
 
     justify-content: center;
     font-size: small;
+    
 
 }
 
@@ -74,7 +79,9 @@ h2 {
 
     padding-top: 5px;
     font-size: small;
+    
 }
+
 
 
 
@@ -84,7 +91,7 @@ h2 {
 
 }
 
-@media (min-width: 960px) {
+@media (min-width: 801px) {
     .Interests {
         display: flex;
 
@@ -139,7 +146,7 @@ h2 {
 
 }
 
-@media (max-width: 959px) {
+@media (max-width: 780px) {
     .BK_text {
         display: flex;
         flex-direction: row-reverse;
@@ -184,7 +191,7 @@ h2 {
 
 }
 
-@media (min-width: 320px) {
+@media (min-width: 600px) {
     .me {
         display: flex;
         text-align: center;
